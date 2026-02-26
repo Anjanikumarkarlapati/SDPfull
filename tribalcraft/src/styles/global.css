@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:wght@300;400;600&family=DM+Mono:wght@400;500&display=swap');
+
+:root {
+  --ochre:      #C4742A;
+  --terracotta: #A8432A;
+  --cream:      #F5EFE0;
+  --deep-brown: #2A1A0A;
+  --mud:        #6B4226;
+  --sage:       #7A8C6A;
+  --gold:       #D4A853;
+  --sand:       #E8D5B0;
+  --ink:        #1C1008;
+  --warm-white: #FAF6EE;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Crimson Pro', serif;
+  background: var(--warm-white);
+  color: var(--ink);
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--sand); }
+::-webkit-scrollbar-thumb { background: var(--ochre); border-radius: 3px; }
